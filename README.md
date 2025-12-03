@@ -55,19 +55,6 @@ Se usaron:
 - Matplotlib  
 - Jupyter Notebook  
 
-Estructura recomendada:
-
-```
-
-project/
-├── data_raw/
-├── data_clean/
-├── notebooks/
-├── sql/
-├── src/
-└── outputs/
-
-```
 
 ---
 
@@ -225,20 +212,3 @@ El proyecto permite responder la pregunta inicial con evidencia cuantitativa:
 - El análisis por ciclos muestra que el efecto del riego no es constante durante el año.
 
 La metodología es totalmente replicable. Cualquier persona puede rehacer el proyecto siguiendo los pasos: obtener los 10 datasets, aplicar las transformaciones, cargar en SQL, realizar EDA y, si desea, ajustar modelos.
-
----
-
-# 9. Archivos sugeridos en un repositorio
-
-```
-
-/notebooks/01_ETL.ipynb
-/notebooks/02_EDA.ipynb
-/notebooks/03_Modelos.ipynb
-/sql/schema.sql
-/sql/cleaning.sql
-/src/utils.py
-/src/etl.py
-/outputs/figures/
-
-```
